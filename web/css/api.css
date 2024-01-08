@@ -1,0 +1,197 @@
+.tables_api{
+    margin-top: 25px;
+    display: none;
+}
+
+.tables_api.blacklist{
+    display: block;
+}
+.tables_api table tbody tr th{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+.tables_api table tbody tr td{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.add_block table tbody tr th{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+.add_block table tbody tr td{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+td#utm_source p{
+    margin: 0px !important;
+}
+a.black_list{
+    display: block;
+    cursor: pointer;
+    color: #c00404;
+    text-decoration: none;
+}
+
+.form_api input, select{
+    border: none;
+    background: #212529;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form_api button{
+    border: none;
+    background: #4e4e4e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.form_api button:hover{
+    background: #212529;
+}
+
+.from_auto .from_auto_input{
+    margin-bottom: 30px;
+}
+
+.from_auto .from_auto_input span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.from_auto button{
+    border: none;
+    background: #4e4e4e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.from_auto button:hover{
+    background: #212529;
+}
+
+.add_block, .setting_block{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1040;
+    background: #00000059;
+    width: 0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.add_block__list{
+    background: #ffff;
+    padding: 30px 40px 40px 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.add_block__list p.title{
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+.add_block__list input, select{
+    border: none;
+    background: #212529;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.add_block__list button{
+    border: none;
+    background: #4e4e4e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+}
+
+.add_block__list button:hover{
+    background: #212529;
+}
+
+.add_block_close{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    background: url('/basic/web/assets/close-cross.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+a.link{
+    border: none;
+    background: #4e4e4e;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+a.link:hover{
+    background: #212529;
+}
+
+a.list_black{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.save_black{
+    width: 100%;
+}
+
+.btns{
+    margin-top: 15px;
+}
+
+@media (max-width: 700px){
+    .form_api{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .add_block__list{
+        overflow-x: auto;
+    }
+
+    .tables_api{
+        overflow-x: auto;
+    }
+}
+

@@ -1,0 +1,20 @@
+*   Trying 92.53.96.13:80...
+* Connected to bot.24newslenta.ru (92.53.96.13) port 80 (#0)
+> GET /site/autosend HTTP/1.1
+Host: anistar.ru
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx/1.24.0
+< Date: Sat, 23 Dec 2023 11:20:05 GMT
+< Content-Type: text/html
+< Content-Length: 169
+< Connection: keep-alive
+< Location: https://vh374.timeweb.ru/parking/?ref=anistar.ru
+< 
+* Connection #0 to host bot.24newslenta.ru left intact
